@@ -1,0 +1,66 @@
+<link href="https://fonts.googleapis.com/css?family=Exo:800|Teko&display=swap" rel="stylesheet">
+<style>
+	.container {
+		background-color: rgb(45, 49, 51);
+		width: 100%;
+		height: auto;
+		color: white;
+		padding: 1rem;
+		box-sizing: border-box;
+	}
+	.content {
+		margin: 1em;
+		padding: 1rem;
+		background-color: #383d3f;
+	}
+	.content h1 {
+		font-family: 'Exo';
+	}
+</style>
+<script>
+	import NavBar from './NavBar.svelte'
+	let name = 'world';
+	let page = "home";
+	let y;
+</script>
+<svelte:window bind:scrollY={y}/>
+<NavBar setPage="{newPage => {
+								 page = newPage;
+								 window.scroll({
+								 	top: 0,
+								 	left: 0,
+								 	behavior: 'smooth'
+								 });
+								}}"/>
+<div class="container">
+<div class="content">
+{#if page == "home"}
+	<h1>
+		The G
+	</h1>
+{:else if page == "about us"}
+	<h1>
+		About Us
+	</h1>
+{:else if page == "our music"}
+	<h1>
+		Our Music
+	</h1>
+{:else if page == "contact"}
+	<h1>
+		Contact Us
+	</h1>
+{:else}
+	404: Not Found
+{/if}
+	
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur mi et gravida vestibulum. Nam imperdiet quam et leo pharetra, non sollicitudin urna commodo. Sed egestas, lacus ut tincidunt ullamcorper, odio mi commodo est, at lobortis elit tellus non felis. In nisi est, tincidunt vulputate efficitur vel, efficitur id lectus. Donec vel lectus pulvinar, tempor ipsum a, posuere magna. Maecenas cursus, purus varius rhoncus eleifend, ligula leo malesuada mauris, a iaculis tellus tortor in ex. Quisque non risus nec ex interdum egestas. Pellentesque laoreet finibus sapien sed egestas.</p>
+
+	<p>Aenean dui leo, aliquam sed tortor pharetra, dignissim iaculis nunc. Praesent turpis arcu, fermentum ut massa nec, pulvinar ullamcorper quam. In commodo lectus egestas massa lacinia, in sagittis nisi maximus. Nunc ultrices nisi urna, non eleifend tellus consectetur sed. Etiam libero leo, porta ultrices feugiat ut, imperdiet ac sapien. Pellentesque a porttitor sapien, a porttitor est. Integer et interdum eros, vel faucibus erat. Sed vel justo magna. Phasellus pharetra ipsum ac purus mattis, at rutrum urna elementum. Donec condimentum purus nisi, ac dapibus diam fermentum eget. Duis venenatis pretium est, ac dapibus erat varius eget. Praesent sit amet ullamcorper libero, eget sollicitudin sem. Fusce in euismod mauris.</p>
+
+	<p>Nunc blandit tortor at dolor tincidunt, non gravida tortor sodales. Sed consectetur odio ac nulla aliquam posuere. Aliquam erat volutpat. Sed feugiat, purus in sagittis pulvinar, diam nisi tristique elit, nec imperdiet sem eros non justo. Vestibulum nisi velit, mattis eget sollicitudin commodo, sodales nec leo. Donec orci nibh, vestibulum eget massa id, porta aliquet purus. Nullam imperdiet odio consequat blandit varius. Integer ac luctus nisi, pretium pharetra lorem. Aliquam erat volutpat. Vestibulum id quam in dolor venenatis sagittis et tincidunt elit. Mauris non tincidunt nisl. Phasellus vulputate, enim at malesuada auctor, est urna pharetra ex, a bibendum sapien tortor ac massa.</p>
+
+	<p>Pellentesque posuere velit sit amet nunc pretium placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse fringilla id neque vehicula vehicula. Suspendisse sed posuere nunc. Integer accumsan sit amet ante eu lacinia. Nam ipsum purus, fringilla vel magna quis, hendrerit tristique ex. Donec tempus malesuada tellus ut gravida. Sed pretium sit amet tellus ac pellentesque. Fusce at lobortis tortor. Aenean at nisi in lectus dapibus consequat. Proin non posuere arcu. Nulla ex velit, vulputate ut sollicitudin et, semper non nibh. Vivamus viverra nisi libero, vitae semper lorem accumsan in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent sed purus eros. </p>
+</div>
+</div>
