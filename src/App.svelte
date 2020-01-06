@@ -21,12 +21,15 @@
  }
 </style>
 <script>
-	import NavBar from './NavBar.svelte'
-	let name = 'world';
-	let page = "home";
-	let y;
+ import NavBar from './NavBar.svelte'
+ import Home from './Home.svelte'
+ import About from './About.svelte'
+ import Music from './Music.svelte'
+ import Contact from './Contact.svelte'
+ let name = 'world';
+ let page = "home";
 </script>
-<svelte:window bind:scrollY={y}/>
+<svelte:window/>
 <NavBar setPage="{newPage => {
 		 page = newPage;
 		 window.scroll({
@@ -38,43 +41,13 @@
 <div class="container">
 <div class="content">
 {#if page == "home"}
-    <div style="text-align:center">
-	<h1>
-		The G
-	</h1>
-	<h2>Music Coming Soon</h2>
-	</div>
+    <Home/>
 {:else if page == "about us"}
-	<h1>
-		About Us
-	</h1>
-	<p>Hi! We are The G, a band based in Atlanta, Georgia. We make modern jazz fusion style pieces to perform and share online. We love making and playing music, and want to share our creations with everyone. Enjoy!</p>
-<h3>Members:</h3>
-
-<p>Jack - Bass</p>
-<p>Ethan -Drumset/Trombone</p>
-<p>Patrick - Drumset/???</p>
+    <About/>
 {:else if page == "our music"}
-	<h1>
-		Our Music
-	</h1>
-	<p>Here you will find recordings of our songs, along with scores.</p>
-	<h1>Soon</h1>
+    <Music/>
 {:else if page == "contact"}
-	<h1>
-		Contact Us
-	</h1>
-	<p>Contact us by email, or via twitter.</p>
-	<h3>Main Email:</h3>
-	<a href="mailto:contact@the-g.org">contact@the-g.org</a>
-	<h3>Member Emails:</h3>
-	<a href="mailto:ethan@the-g.org">ethan@the-g.org</a>
-	<br>
-	<a href="mailto:jack@the-g.org">jack@the-g.org</a>
-	<br>
-	<a href="mailto:patrick@the-g.org">patrick@the-g.org</a>
-	<h3>Twitter</h3>
-	<a href="https://twitter.com/TheG_Music">@TheG_Music</a>
+    <Contact/>
 
 {:else}
 	404: Not Found
