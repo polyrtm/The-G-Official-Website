@@ -12,3 +12,5 @@
 <a href="mailto:patrick@the-g.org">patrick@the-g.org</a>
 <h3>Twitter</h3>
 <a href="https://twitter.com/TheG_Music">@TheG_Music</a>
+<h3>SoundCloud</h3>
+<a href="https://soundcloud.com/theg_music">TheG_Music</a>
