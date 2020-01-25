@@ -4,13 +4,6 @@
 <p>Here you will find recordings of our songs, along with scores.</p>
 <h2>Demos</h2>
 <p>Demos of our songs.</p>
-<h3>Preview 1</h3>
-<audio
-        controls
-        src="/assets/demos/Preview_Song.mp3">
-            Your browser does not support the
-            <code>audio</code> element.
-    </audio>
 
 <h3>Initiation</h3>
 <audio
@@ -32,6 +25,14 @@
 <audio
         controls
         src="/assets/demos/Sunset.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+
+    <h3>Song Writing Test</h3>
+<audio
+        controls
+        src="/assets/demos/Preview_Song.mp3">
             Your browser does not support the
             <code>audio</code> element.
     </audio>
