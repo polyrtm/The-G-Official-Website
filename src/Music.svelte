@@ -54,7 +54,7 @@
 <div class="flex-container">
     {#each songs as {src, title}}
 	<div class="item">
-	    <iframe title="Initiation" height="300" scrolling="no" frameborder="no" allow="autoplay" {src} {title}/>
+	    <iframe height="300" scrolling="no" frameborder="no" allow="autoplay" {src} {title}/>
 	</div>
     {/each}
 </div>
@@ -63,10 +63,9 @@
 <div class="flex-container">
     {#each songs as {score, thumbnail, title}}
 	<div class="item">
-	    <a href={score}><img src={thumbnail} alt={title}></a>
+	    <a href={score}><img src={thumbnail} alt={title} {title}></a>
 	</div>
     {/each}
 </div>
 
-<p>Coming Soon</p>
 
