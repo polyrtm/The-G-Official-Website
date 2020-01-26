@@ -41,7 +41,13 @@
 	 src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/749476138&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
 	 score: "assets/sunset.pdf",
 	 thumbnail: "/assets/Sunset.png"
-     }
+	 },
+	 {
+	 title: "Subsurface",
+	 src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/749596402&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+	 score: "assets/subsurface.pdf",
+	 thumbnail: "/assets/subsurface.png"
+	 }
  ]
 </script>
 <h1>
@@ -60,6 +66,7 @@
 </div>
 
 <h2>Scores</h2>
+<p>Click score to view full PDF</p>
 <div class="flex-container">
     {#each songs as {score, thumbnail, title}}
 	<div class="item">

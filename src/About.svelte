@@ -4,23 +4,25 @@
      {
 	 src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9FZZxs6TXZPSNRQyY0d-FAHaFj%26pid%3DApi&f=1",
 	 name: "Jack",
-	 description: "Bassist"
+	 description: "Bass"
      },
      {
 	 src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9FZZxs6TXZPSNRQyY0d-FAHaFj%26pid%3DApi&f=1",
 	 name: "Ethan",
-	 description: "Drummer/Trombonist"
+	 description: "Drums/Trombone"
      },
      {
 	 src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9FZZxs6TXZPSNRQyY0d-FAHaFj%26pid%3DApi&f=1",
 	 name: "Patrick",
-	 description: "Drummer/Synth"
+	 description: "Drums/Synth"
      }
  ]
 </script>
 <style>
  .cards {
      display: flex;
+     flex-wrap:wrap;
+     
  }
 </style>
 <h1>
