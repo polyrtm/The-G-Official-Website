@@ -63,7 +63,7 @@
 <div class="flex-container">
     {#each songs as {score, thumbnail, title}}
 	<div class="item">
-	    <a href={score}><img src={thumbnail} alt={title} {title} width="400"></a>
+	    <a href={score}><img src={thumbnail} alt={title} {title} width="100%"></a>
 	</div>
     {/each}
 </div>
