@@ -28,19 +28,19 @@
 	 title: "Initiation",
 	 src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/749475481&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
 	 score: "assets/Initiation.pdf",
-	 thumbnail: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9FZZxs6TXZPSNRQyY0d-FAHaFj%26pid%3DApi&f=1"
+	 thumbnail: "/assets/Initiation.png"
      },
      {
 	 title: "EB2",
 	 src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/749475802&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
 	 score: "assets/EB2.pdf",
-	 thumbnail: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9FZZxs6TXZPSNRQyY0d-FAHaFj%26pid%3DApi&f=1"
+	 thumbnail: "/assets/EB2.png"
      },
      {
 	 title: "Sunset",
 	 src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/749476138&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
 	 score: "assets/sunset.pdf",
-	 thumbnail: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9FZZxs6TXZPSNRQyY0d-FAHaFj%26pid%3DApi&f=1"
+	 thumbnail: "/assets/Sunset.png"
      }
  ]
 </script>
