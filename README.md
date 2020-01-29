@@ -9,6 +9,6 @@ Enjoy listening!!
 
 # Members
 
-https://www.gtihub.com/JackFly26 - Bass
-https://www.github.com/smhsketch - Drumset / Synth
+https://www.gtihub.com/JackFly26 - Bass\
+https://www.github.com/smhsketch - Drumset / Synth\
 https://www.github.com/PizzaDaBoss - Trombone / Drumset
