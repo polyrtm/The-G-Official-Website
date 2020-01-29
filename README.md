@@ -3,8 +3,7 @@ The G is a band of 3 focused on writing songs in a modern-jazz fusion style.
 
 We post our scores on our website, https://www.the-g.org and every single one of them is available to download for absolutely free.
 
-In addition, our music can be downloaded an a .mp3 file directly from our website.
-
+In addition, our music can be downloaded as a .mp3 from our soundcloud.
 Enjoy listening!!
 
 # Members
